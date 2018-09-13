@@ -1,19 +1,18 @@
 {
-  "name": "nwidart/laravel-modules",
+  "name": "cyberair/laravel-modules",
   "description": "Laravel Module management",
   "keywords": [
     "modules",
     "laravel",
-    "nwidart",
     "module",
     "rad"
   ],
   "license": "MIT",
   "authors": [
     {
-      "name": "Nicolas Widart",
-      "email": "n.widart@gmail.com",
-      "homepage": "https://nicolaswidart.com",
+      "name": "CyberAir",
+      "email": "cyberair.vn@gmail.com",
+      "homepage": "https://cyberair.vn",
       "role": "Developer"
     }
   ],
@@ -31,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Nwidart\\Modules\\": "src"
+      "CyberAir\\Modules\\": "src"
     },
     "files": [
       "src/helpers.php"
@@ -39,17 +38,17 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Nwidart\\Modules\\Tests\\": "tests",
-      "Modules\\Recipe\\": "tests/stubs/valid/Recipe"
+      "CyberAir\\Modules\\Tests\\": "tests",
+      "CyberAir\\Recipe\\": "tests/stubs/valid/Recipe"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Nwidart\\Modules\\LaravelModulesServiceProvider"
+        "CyberAir\\Modules\\LaravelModulesServiceProvider"
       ],
       "aliases": {
-        "Module": "Nwidart\\Modules\\Facades\\Module"
+        "Module": "CyberAir\\Modules\\Facades\\Module"
       }
     },
     "branch-alias": {
